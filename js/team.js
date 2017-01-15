@@ -1,6 +1,6 @@
-module.exports = [
+module.exports = {
 
-function Team() {
+Team: function() {
     this.players = [];
 
     this.add = function(playerName) {
@@ -10,9 +10,8 @@ function Team() {
 
     },
 
-
-
     return this;
+},
+
 };
 
-];
